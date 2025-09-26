@@ -34,7 +34,7 @@ s=socket.socket()
 s.bind(('localhost',8000))
 s.listen(5)
 c,addr=s.accept()
-address={"172.20.10.2":"68:34:21:81:82:C9"}
+address={"10.255.102.92":"68:34:21:7F:24:FC"}
 while True:
     ip=c.recv(1024).decode()
     try:
